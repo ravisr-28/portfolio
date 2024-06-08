@@ -29,7 +29,7 @@ const Navbar = () => {
   ];
   return (
     <>
-      <div className="max-w-screen-2xl container mx-auto px-4 z-10 h-16 shadow-md font-serif md:px-20 fixed top-0 left-0 right-0 bg-white">
+      <div className="container mx-auto px-4 z-10 h-16 shadow-md font-serif md:px-20 fixed top-0 left-0 right-0 bg-white">
         <div className="flex justify-between items-center h-16">
           <div className="flex space-x-2">
             <img

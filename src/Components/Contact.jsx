@@ -20,7 +20,7 @@ const Contact = () => {
      await axios.post("https://getform.io/f/ebpdvggb", userInfo);
      toast.success("Your message has been sent")
     } catch (error) {
-        toast.error("Something wet wrong")
+        toast.error("Something went wrong")
     }
   };
   return (
@@ -62,7 +62,7 @@ const Contact = () => {
                 className="shadow appearance-none border rounded-lg py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 id="email"
                 name="email"
-                type="text"
+                type="email"
                 placeholder="Enter Your Email"
               />
               {errors.email && <span>This field is required</span>}
